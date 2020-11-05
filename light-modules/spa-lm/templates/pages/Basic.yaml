@@ -1,0 +1,10 @@
+title: SPA Basic
+templateScript: /spa-lm/webresources/build/index.html
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+areas:
+  main:
+    title: Main area
+    availableComponents:
+      text:
+        id: spa-lm:components/Text
