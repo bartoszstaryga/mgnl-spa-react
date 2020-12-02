@@ -1,5 +1,7 @@
 # mgnl-spa-react
 
+Minimal SPA x Magnolia example
+
 ## What
 
 - `spa` - basic React app
