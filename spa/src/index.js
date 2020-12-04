@@ -32,7 +32,7 @@ class App extends React.PureComponent {
 
     if (EditorContextHelper.inEditor()) {
       const templateDefinitionsRes = await fetch(
-        '/magnoliaAuthor/.rest/templateDefinition/v1/' + page['mgnl:template']
+        '/magnoliaAuthor/.rest/template-definitions/v1/' + page['mgnl:template']
       );
 
       templateDefinitions = await templateDefinitionsRes.json();
